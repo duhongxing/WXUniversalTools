@@ -15,6 +15,7 @@
 		BFAC62C620A1D1FB002E05B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62C520A1D1FB002E05B5 /* main.m */; };
 		BFAC62D020A1D1FB002E05B5 /* WXUniversalToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62CF20A1D1FB002E05B5 /* WXUniversalToolsTests.m */; };
 		BFAC62DB20A1D1FB002E05B5 /* WXUniversalToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62DA20A1D1FB002E05B5 /* WXUniversalToolsUITests.m */; };
+		BFAC62EB20A1D430002E05B5 /* UIImage+DHXRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62EA20A1D423002E05B5 /* UIImage+DHXRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BFAC62D620A1D1FB002E05B5 /* WXUniversalToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXUniversalToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC62DA20A1D1FB002E05B5 /* WXUniversalToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXUniversalToolsUITests.m; sourceTree = "<group>"; };
 		BFAC62DC20A1D1FB002E05B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAC62E920A1D423002E05B5 /* UIImage+DHXRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DHXRadius.h"; sourceTree = "<group>"; };
+		BFAC62EA20A1D423002E05B5 /* UIImage+DHXRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DHXRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		BFAC62B520A1D1FB002E05B5 /* WXUniversalTools */ = {
 			isa = PBXGroup;
 			children = (
+				BFAC62E820A1D422002E05B5 /* Classes */,
 				BFAC62B620A1D1FB002E05B5 /* AppDelegate.h */,
 				BFAC62B720A1D1FB002E05B5 /* AppDelegate.m */,
 				BFAC62B920A1D1FB002E05B5 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				BFAC62DC20A1D1FB002E05B5 /* Info.plist */,
 			);
 			path = WXUniversalToolsUITests;
+			sourceTree = "<group>";
+		};
+		BFAC62E820A1D422002E05B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC62E920A1D423002E05B5 /* UIImage+DHXRadius.h */,
+				BFAC62EA20A1D423002E05B5 /* UIImage+DHXRadius.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAC62EB20A1D430002E05B5 /* UIImage+DHXRadius.m in Sources */,
 				BFAC62BB20A1D1FB002E05B5 /* ViewController.m in Sources */,
 				BFAC62C620A1D1FB002E05B5 /* main.m in Sources */,
 				BFAC62B820A1D1FB002E05B5 /* AppDelegate.m in Sources */,
