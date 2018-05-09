@@ -16,6 +16,29 @@
 		BFAC62D020A1D1FB002E05B5 /* WXUniversalToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62CF20A1D1FB002E05B5 /* WXUniversalToolsTests.m */; };
 		BFAC62DB20A1D1FB002E05B5 /* WXUniversalToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62DA20A1D1FB002E05B5 /* WXUniversalToolsUITests.m */; };
 		BFAC62EB20A1D430002E05B5 /* UIImage+DHXRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62EA20A1D423002E05B5 /* UIImage+DHXRadius.m */; };
+		CBFC2F7F20A2E41A00B2C391 /* AppDelegate+JPush.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC2F6220A2E41900B2C391 /* AppDelegate+JPush.m */; };
+		CBFC2F8020A2E41A00B2C391 /* JPushTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC2F6520A2E41900B2C391 /* JPushTool.m */; };
+		CBFC2F8120A2E41A00B2C391 /* JShare_facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F6920A2E41900B2C391 /* JShare_facebook@2x.png */; };
+		CBFC2F8220A2E41A00B2C391 /* JShare_facebook@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F6A20A2E41900B2C391 /* JShare_facebook@3x.png */; };
+		CBFC2F8320A2E41A00B2C391 /* JShare_messenger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F6B20A2E41900B2C391 /* JShare_messenger@2x.png */; };
+		CBFC2F8420A2E41A00B2C391 /* JShare_messenger@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F6C20A2E41900B2C391 /* JShare_messenger@3x.png */; };
+		CBFC2F8520A2E41A00B2C391 /* JShare_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F6D20A2E41900B2C391 /* JShare_qq@2x.png */; };
+		CBFC2F8620A2E41A00B2C391 /* JShare_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F6E20A2E41900B2C391 /* JShare_qq@3x.png */; };
+		CBFC2F8720A2E41A00B2C391 /* JShare_qzone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F6F20A2E41900B2C391 /* JShare_qzone@2x.png */; };
+		CBFC2F8820A2E41A00B2C391 /* JShare_qzone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7020A2E41900B2C391 /* JShare_qzone@3x.png */; };
+		CBFC2F8920A2E41A00B2C391 /* JShare_twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7120A2E41900B2C391 /* JShare_twitter@2x.png */; };
+		CBFC2F8A20A2E41A00B2C391 /* JShare_twitter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7220A2E41900B2C391 /* JShare_twitter@3x.png */; };
+		CBFC2F8B20A2E41A00B2C391 /* JShare_wechat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7320A2E41900B2C391 /* JShare_wechat@2x.png */; };
+		CBFC2F8C20A2E41A00B2C391 /* JShare_wechat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7420A2E41900B2C391 /* JShare_wechat@3x.png */; };
+		CBFC2F8D20A2E41A00B2C391 /* JShare_wechat_fav@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7520A2E41900B2C391 /* JShare_wechat_fav@2x.png */; };
+		CBFC2F8E20A2E41A00B2C391 /* JShare_wechat_fav@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7620A2E41900B2C391 /* JShare_wechat_fav@3x.png */; };
+		CBFC2F8F20A2E41A00B2C391 /* JShare_wechat_moment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7720A2E41900B2C391 /* JShare_wechat_moment@2x.png */; };
+		CBFC2F9020A2E41A00B2C391 /* JShare_wechat_moment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7820A2E41900B2C391 /* JShare_wechat_moment@3x.png */; };
+		CBFC2F9120A2E41A00B2C391 /* JShare_weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7920A2E41900B2C391 /* JShare_weibo@2x.png */; };
+		CBFC2F9220A2E41A00B2C391 /* JShare_weibo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFC2F7A20A2E41900B2C391 /* JShare_weibo@3x.png */; };
+		CBFC2F9320A2E41A00B2C391 /* JShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC2F7C20A2E41900B2C391 /* JShareTool.m */; };
+		CBFC2F9420A2E41A00B2C391 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFC2F7E20A2E41900B2C391 /* ShareView.m */; };
+		E5E3E53075AE4179C999930C /* libPods-WXUniversalTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954086C790A9EF4CC1FBEB4 /* libPods-WXUniversalTools.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1788DBD0833E73E9DB93F235 /* Pods-WXUniversalTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXUniversalTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXUniversalTools/Pods-WXUniversalTools.debug.xcconfig"; sourceTree = "<group>"; };
+		6954086C790A9EF4CC1FBEB4 /* libPods-WXUniversalTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXUniversalTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC62B320A1D1FB002E05B5 /* WXUniversalTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXUniversalTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC62B620A1D1FB002E05B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFAC62B720A1D1FB002E05B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +79,35 @@
 		BFAC62DC20A1D1FB002E05B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFAC62E920A1D423002E05B5 /* UIImage+DHXRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DHXRadius.h"; sourceTree = "<group>"; };
 		BFAC62EA20A1D423002E05B5 /* UIImage+DHXRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DHXRadius.m"; sourceTree = "<group>"; };
+		C5ECBA690A69FC2CFC53DF0F /* Pods-WXUniversalTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXUniversalTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXUniversalTools/Pods-WXUniversalTools.release.xcconfig"; sourceTree = "<group>"; };
+		CBFC2F6120A2E41900B2C391 /* AppDelegate+JPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JPush.h"; sourceTree = "<group>"; };
+		CBFC2F6220A2E41900B2C391 /* AppDelegate+JPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JPush.m"; sourceTree = "<group>"; };
+		CBFC2F6320A2E41900B2C391 /* JPushConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushConst.h; sourceTree = "<group>"; };
+		CBFC2F6420A2E41900B2C391 /* JPushTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushTool.h; sourceTree = "<group>"; };
+		CBFC2F6520A2E41900B2C391 /* JPushTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPushTool.m; sourceTree = "<group>"; };
+		CBFC2F6720A2E41900B2C391 /* JShareConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JShareConst.h; sourceTree = "<group>"; };
+		CBFC2F6920A2E41900B2C391 /* JShare_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_facebook@2x.png"; sourceTree = "<group>"; };
+		CBFC2F6A20A2E41900B2C391 /* JShare_facebook@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_facebook@3x.png"; sourceTree = "<group>"; };
+		CBFC2F6B20A2E41900B2C391 /* JShare_messenger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_messenger@2x.png"; sourceTree = "<group>"; };
+		CBFC2F6C20A2E41900B2C391 /* JShare_messenger@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_messenger@3x.png"; sourceTree = "<group>"; };
+		CBFC2F6D20A2E41900B2C391 /* JShare_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_qq@2x.png"; sourceTree = "<group>"; };
+		CBFC2F6E20A2E41900B2C391 /* JShare_qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_qq@3x.png"; sourceTree = "<group>"; };
+		CBFC2F6F20A2E41900B2C391 /* JShare_qzone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_qzone@2x.png"; sourceTree = "<group>"; };
+		CBFC2F7020A2E41900B2C391 /* JShare_qzone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_qzone@3x.png"; sourceTree = "<group>"; };
+		CBFC2F7120A2E41900B2C391 /* JShare_twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_twitter@2x.png"; sourceTree = "<group>"; };
+		CBFC2F7220A2E41900B2C391 /* JShare_twitter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_twitter@3x.png"; sourceTree = "<group>"; };
+		CBFC2F7320A2E41900B2C391 /* JShare_wechat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_wechat@2x.png"; sourceTree = "<group>"; };
+		CBFC2F7420A2E41900B2C391 /* JShare_wechat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_wechat@3x.png"; sourceTree = "<group>"; };
+		CBFC2F7520A2E41900B2C391 /* JShare_wechat_fav@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_wechat_fav@2x.png"; sourceTree = "<group>"; };
+		CBFC2F7620A2E41900B2C391 /* JShare_wechat_fav@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_wechat_fav@3x.png"; sourceTree = "<group>"; };
+		CBFC2F7720A2E41900B2C391 /* JShare_wechat_moment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_wechat_moment@2x.png"; sourceTree = "<group>"; };
+		CBFC2F7820A2E41900B2C391 /* JShare_wechat_moment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_wechat_moment@3x.png"; sourceTree = "<group>"; };
+		CBFC2F7920A2E41900B2C391 /* JShare_weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_weibo@2x.png"; sourceTree = "<group>"; };
+		CBFC2F7A20A2E41900B2C391 /* JShare_weibo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JShare_weibo@3x.png"; sourceTree = "<group>"; };
+		CBFC2F7B20A2E41900B2C391 /* JShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JShareTool.h; sourceTree = "<group>"; };
+		CBFC2F7C20A2E41900B2C391 /* JShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JShareTool.m; sourceTree = "<group>"; };
+		CBFC2F7D20A2E41900B2C391 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		CBFC2F7E20A2E41900B2C391 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E3E53075AE4179C999930C /* libPods-WXUniversalTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +136,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A87616369434BDAFDB98F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6954086C790A9EF4CC1FBEB4 /* libPods-WXUniversalTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94AF85E9C21A75EC95D65A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1788DBD0833E73E9DB93F235 /* Pods-WXUniversalTools.debug.xcconfig */,
+				C5ECBA690A69FC2CFC53DF0F /* Pods-WXUniversalTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BFAC62AA20A1D1FB002E05B5 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +160,8 @@
 				BFAC62CE20A1D1FB002E05B5 /* WXUniversalToolsTests */,
 				BFAC62D920A1D1FB002E05B5 /* WXUniversalToolsUITests */,
 				BFAC62B420A1D1FB002E05B5 /* Products */,
+				94AF85E9C21A75EC95D65A31 /* Pods */,
+				07A87616369434BDAFDB98F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,10 +213,86 @@
 		BFAC62E820A1D422002E05B5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CBFC2F5E20A2E32500B2C391 /* VendorTool */,
+				CBFC2F5D20A2DF4E00B2C391 /* Base_Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CBFC2F5D20A2DF4E00B2C391 /* Base_Category */ = {
+			isa = PBXGroup;
+			children = (
 				BFAC62E920A1D423002E05B5 /* UIImage+DHXRadius.h */,
 				BFAC62EA20A1D423002E05B5 /* UIImage+DHXRadius.m */,
 			);
-			path = Classes;
+			path = Base_Category;
+			sourceTree = "<group>";
+		};
+		CBFC2F5E20A2E32500B2C391 /* VendorTool */ = {
+			isa = PBXGroup;
+			children = (
+				CBFC2F5F20A2E41900B2C391 /* JTools */,
+			);
+			path = VendorTool;
+			sourceTree = "<group>";
+		};
+		CBFC2F5F20A2E41900B2C391 /* JTools */ = {
+			isa = PBXGroup;
+			children = (
+				CBFC2F6020A2E41900B2C391 /* JPushTool */,
+				CBFC2F6620A2E41900B2C391 /* JShareTool */,
+			);
+			path = JTools;
+			sourceTree = "<group>";
+		};
+		CBFC2F6020A2E41900B2C391 /* JPushTool */ = {
+			isa = PBXGroup;
+			children = (
+				CBFC2F6120A2E41900B2C391 /* AppDelegate+JPush.h */,
+				CBFC2F6220A2E41900B2C391 /* AppDelegate+JPush.m */,
+				CBFC2F6320A2E41900B2C391 /* JPushConst.h */,
+				CBFC2F6420A2E41900B2C391 /* JPushTool.h */,
+				CBFC2F6520A2E41900B2C391 /* JPushTool.m */,
+			);
+			path = JPushTool;
+			sourceTree = "<group>";
+		};
+		CBFC2F6620A2E41900B2C391 /* JShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				CBFC2F6820A2E41900B2C391 /* JShareImages */,
+				CBFC2F6720A2E41900B2C391 /* JShareConst.h */,
+				CBFC2F7B20A2E41900B2C391 /* JShareTool.h */,
+				CBFC2F7C20A2E41900B2C391 /* JShareTool.m */,
+				CBFC2F7D20A2E41900B2C391 /* ShareView.h */,
+				CBFC2F7E20A2E41900B2C391 /* ShareView.m */,
+			);
+			path = JShareTool;
+			sourceTree = "<group>";
+		};
+		CBFC2F6820A2E41900B2C391 /* JShareImages */ = {
+			isa = PBXGroup;
+			children = (
+				CBFC2F6920A2E41900B2C391 /* JShare_facebook@2x.png */,
+				CBFC2F6A20A2E41900B2C391 /* JShare_facebook@3x.png */,
+				CBFC2F6B20A2E41900B2C391 /* JShare_messenger@2x.png */,
+				CBFC2F6C20A2E41900B2C391 /* JShare_messenger@3x.png */,
+				CBFC2F6D20A2E41900B2C391 /* JShare_qq@2x.png */,
+				CBFC2F6E20A2E41900B2C391 /* JShare_qq@3x.png */,
+				CBFC2F6F20A2E41900B2C391 /* JShare_qzone@2x.png */,
+				CBFC2F7020A2E41900B2C391 /* JShare_qzone@3x.png */,
+				CBFC2F7120A2E41900B2C391 /* JShare_twitter@2x.png */,
+				CBFC2F7220A2E41900B2C391 /* JShare_twitter@3x.png */,
+				CBFC2F7320A2E41900B2C391 /* JShare_wechat@2x.png */,
+				CBFC2F7420A2E41900B2C391 /* JShare_wechat@3x.png */,
+				CBFC2F7520A2E41900B2C391 /* JShare_wechat_fav@2x.png */,
+				CBFC2F7620A2E41900B2C391 /* JShare_wechat_fav@3x.png */,
+				CBFC2F7720A2E41900B2C391 /* JShare_wechat_moment@2x.png */,
+				CBFC2F7820A2E41900B2C391 /* JShare_wechat_moment@3x.png */,
+				CBFC2F7920A2E41900B2C391 /* JShare_weibo@2x.png */,
+				CBFC2F7A20A2E41900B2C391 /* JShare_weibo@3x.png */,
+			);
+			path = JShareImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFAC62DF20A1D1FB002E05B5 /* Build configuration list for PBXNativeTarget "WXUniversalTools" */;
 			buildPhases = (
+				3A38134664949339DE5A6AC3 /* [CP] Check Pods Manifest.lock */,
 				BFAC62AF20A1D1FB002E05B5 /* Sources */,
 				BFAC62B020A1D1FB002E05B5 /* Frameworks */,
 				BFAC62B120A1D1FB002E05B5 /* Resources */,
+				596B7F24A99454246FDE6EB6 /* [CP] Embed Pods Frameworks */,
+				A9AA2B203AB66FAA4FA84E87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,9 +404,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFC2F8820A2E41A00B2C391 /* JShare_qzone@3x.png in Resources */,
 				BFAC62C320A1D1FB002E05B5 /* LaunchScreen.storyboard in Resources */,
+				CBFC2F8220A2E41A00B2C391 /* JShare_facebook@3x.png in Resources */,
+				CBFC2F8E20A2E41A00B2C391 /* JShare_wechat_fav@3x.png in Resources */,
+				CBFC2F9020A2E41A00B2C391 /* JShare_wechat_moment@3x.png in Resources */,
+				CBFC2F9220A2E41A00B2C391 /* JShare_weibo@3x.png in Resources */,
+				CBFC2F8120A2E41A00B2C391 /* JShare_facebook@2x.png in Resources */,
+				CBFC2F9120A2E41A00B2C391 /* JShare_weibo@2x.png in Resources */,
+				CBFC2F8520A2E41A00B2C391 /* JShare_qq@2x.png in Resources */,
+				CBFC2F8B20A2E41A00B2C391 /* JShare_wechat@2x.png in Resources */,
+				CBFC2F8420A2E41A00B2C391 /* JShare_messenger@3x.png in Resources */,
+				CBFC2F8620A2E41A00B2C391 /* JShare_qq@3x.png in Resources */,
 				BFAC62C020A1D1FB002E05B5 /* Assets.xcassets in Resources */,
+				CBFC2F8D20A2E41A00B2C391 /* JShare_wechat_fav@2x.png in Resources */,
 				BFAC62BE20A1D1FB002E05B5 /* Main.storyboard in Resources */,
+				CBFC2F8920A2E41A00B2C391 /* JShare_twitter@2x.png in Resources */,
+				CBFC2F8320A2E41A00B2C391 /* JShare_messenger@2x.png in Resources */,
+				CBFC2F8720A2E41A00B2C391 /* JShare_qzone@2x.png in Resources */,
+				CBFC2F8F20A2E41A00B2C391 /* JShare_wechat_moment@2x.png in Resources */,
+				CBFC2F8C20A2E41A00B2C391 /* JShare_wechat@3x.png in Resources */,
+				CBFC2F8A20A2E41A00B2C391 /* JShare_twitter@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +444,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A38134664949339DE5A6AC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXUniversalTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		596B7F24A99454246FDE6EB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXUniversalTools/Pods-WXUniversalTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9AA2B203AB66FAA4FA84E87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WXUniversalTools/Pods-WXUniversalTools-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXUniversalTools/Pods-WXUniversalTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFAC62AF20A1D1FB002E05B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,7 +506,11 @@
 				BFAC62EB20A1D430002E05B5 /* UIImage+DHXRadius.m in Sources */,
 				BFAC62BB20A1D1FB002E05B5 /* ViewController.m in Sources */,
 				BFAC62C620A1D1FB002E05B5 /* main.m in Sources */,
+				CBFC2F9320A2E41A00B2C391 /* JShareTool.m in Sources */,
+				CBFC2F9420A2E41A00B2C391 /* ShareView.m in Sources */,
 				BFAC62B820A1D1FB002E05B5 /* AppDelegate.m in Sources */,
+				CBFC2F8020A2E41A00B2C391 /* JPushTool.m in Sources */,
+				CBFC2F7F20A2E41A00B2C391 /* AppDelegate+JPush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,11 +671,13 @@
 		};
 		BFAC62E020A1D1FB002E05B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1788DBD0833E73E9DB93F235 /* Pods-WXUniversalTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52QN5DMYGA;
 				INFOPLIST_FILE = WXUniversalTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wuxing.WXUniversalTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,11 +687,13 @@
 		};
 		BFAC62E120A1D1FB002E05B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5ECBA690A69FC2CFC53DF0F /* Pods-WXUniversalTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52QN5DMYGA;
 				INFOPLIST_FILE = WXUniversalTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wuxing.WXUniversalTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
