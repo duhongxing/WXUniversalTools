@@ -19,8 +19,8 @@
 @property (nonatomic, strong) UIView * lineView;
 @property (nonatomic, strong) UIButton * cancelBtn;
 
-@property (nonatomic, assign) CGFloat screenWidth;
-@property (nonatomic, assign) CGFloat screenHeight;
+@property (nonatomic, assign) CGFloat JShare_ScreenWidth;
+@property (nonatomic, assign) CGFloat JShare_ScreenHeight;
 @property (nonatomic, assign) CGFloat space;
 
 @end
@@ -51,9 +51,9 @@
 {
     self = [super init];
     if (self) {
-        self.screenWidth = [UIScreen mainScreen].bounds.size.width;
-        self.screenHeight = [UIScreen mainScreen].bounds.size.height;
-        self.space = (self.screenWidth-4*ImageSize)/5;
+        self.JShare_ScreenWidth = [UIScreen mainScreen].bounds.size.width;
+        self.JShare_ScreenHeight = [UIScreen mainScreen].bounds.size.height;
+        self.space = (self.JShare_ScreenWidth-4*ImageSize)/5;
         self.shareView = [[UIView alloc] init];
         self.currentContentSupportPlatform = [[NSMutableArray alloc] init];
         
@@ -91,7 +91,7 @@
 }
 
 - (void)setFacade {
-    self.frame = CGRectMake(0, 0, self.screenWidth, self.screenHeight);
+    self.frame = CGRectMake(0, 0, self.JShare_ScreenWidth, self.JShare_ScreenHeight);
     self.backgroundColor = [UIColor colorWithWhite:0.1 alpha:0.5];
 }
 
@@ -141,9 +141,9 @@
     }
     NSInteger totalRow = (self.currentContentSupportPlatform.count-1)/4+1;
     CGFloat shareViewHeight = TopSpace+totalRow*(ImageSize+ItemFontSize+ImageLabelSpace)+(totalRow-1)*MidSpace+BottomSpace+CancelItemHeight;
-    self.shareView.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height, self.screenWidth, shareViewHeight);
-    self.cancelBtn.frame = CGRectMake(0, self.shareView.frame.size.height-CancelItemHeight, self.screenWidth, CancelItemHeight);
-    self.lineView.frame = CGRectMake(self.space, self.shareView.frame.size.height-62, self.screenWidth-self.space*2, 1);
+    self.shareView.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height, self.JShare_ScreenWidth, shareViewHeight);
+    self.cancelBtn.frame = CGRectMake(0, self.shareView.frame.size.height-CancelItemHeight, self.JShare_ScreenWidth, CancelItemHeight);
+    self.lineView.frame = CGRectMake(self.space, self.shareView.frame.size.height-62, self.JShare_ScreenWidth-self.space*2, 1);
     [super setHidden:YES];
 }
 
@@ -199,14 +199,14 @@
     if (!hidden) {
         [super setHidden:hidden];
         [UIView animateWithDuration:0.3 animations:^{
-            self.shareView.frame = CGRectMake(0, self.screenHeight-CGRectGetHeight(self.shareView.frame), CGRectGetWidth(self.shareView.frame), CGRectGetHeight(self.shareView.frame));
+            self.shareView.frame = CGRectMake(0, self.JShare_ScreenHeight-CGRectGetHeight(self.shareView.frame), CGRectGetWidth(self.shareView.frame), CGRectGetHeight(self.shareView.frame));
         }];
         [UIView animateWithDuration:0.5 animations:^{
             self.backgroundColor = [UIColor colorWithWhite:0.1 alpha:0.5];;
         }];
     }else{
         [UIView animateWithDuration:0.3 animations:^{
-            self.shareView.frame = CGRectMake(0, self.screenHeight, CGRectGetWidth(self.shareView.frame), CGRectGetHeight(self.shareView.frame));
+            self.shareView.frame = CGRectMake(0, self.JShare_ScreenHeight, CGRectGetWidth(self.shareView.frame), CGRectGetHeight(self.shareView.frame));
         }];
         [UIView animateWithDuration:0.5 animations:^{
             self.backgroundColor = [UIColor colorWithWhite:0.1 alpha:0.0];;

@@ -9,7 +9,7 @@
 #ifndef JShareConst_h
 #define JShareConst_h
 
-/* 极光推送 */
+/* 极光分享 */
 static NSString * const JShareAppKey                = @"";
 
 /* 极光分享 - 微信 QQ   */
