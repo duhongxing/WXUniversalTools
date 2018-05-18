@@ -10,7 +10,7 @@ target 'WXUniversalTools' do
     pod 'SDWebImage'
     
     
-    
+#    第三方SDK
     pod 'JPush'
     pod 'JShare'
 
