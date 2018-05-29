@@ -45,6 +45,7 @@
 + (void)shareViewAddSuperview:(UIView *)view withMessage:(JSHAREMessage *)message{
     JShareTool *shareTool = [[JShareTool alloc] init];
     shareTool.shareMsg = message;
+    
     [shareTool.shareView showWithContentType:JSHARELink supportPlatform:@[
                                                                           @(JSHAREPlatformWechatSession),
                                                                           @(JSHAREPlatformWechatTimeLine),
@@ -80,7 +81,7 @@
  @param platform 分享平台信息
  */
 - (void)shareLinkWithPlatform:(JSHAREPlatform)platform{
-    
+    self.shareMsg.platform = platform;
     [JSHAREService share:self.shareMsg handler:^(JSHAREState state, NSError *error) {
         [self showAlertWithState:state error:error];
     }];
@@ -97,7 +98,7 @@
 - (void)showAlertWithState:(JSHAREState)state error:(NSError *)error{
     
     NSString *string = nil;
-    if (error) {
+    if (state == JSHAREStateFail) {
         string = [NSString stringWithFormat:@"分享失败,error:%@", error.description];
     }else{
         switch (state) {
@@ -118,6 +119,10 @@
         }
     }
     
+    if ([string isEqualToString:@"Unknown"]) {
+        return;
+    }
+    
     UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:nil message:string delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
     dispatch_async(dispatch_get_main_queue(), ^{
         [Alert show];
@@ -126,3 +131,4 @@
 
 
 @end
+
