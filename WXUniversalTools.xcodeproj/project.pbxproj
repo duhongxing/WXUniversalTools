@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF169E1A20FDCE91006ADA50 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF169E1920FDCE91006ADA50 /* UIColor+HexColor.m */; };
+		BF169E1D20FDCFEF006ADA50 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF169E1C20FDCFEF006ADA50 /* NSString+RegexCategory.m */; };
 		BFAC62B820A1D1FB002E05B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62B720A1D1FB002E05B5 /* AppDelegate.m */; };
 		BFAC62BB20A1D1FB002E05B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62BA20A1D1FB002E05B5 /* ViewController.m */; };
 		BFAC62BE20A1D1FB002E05B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAC62BC20A1D1FB002E05B5 /* Main.storyboard */; };
@@ -68,6 +70,10 @@
 /* Begin PBXFileReference section */
 		1788DBD0833E73E9DB93F235 /* Pods-WXUniversalTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXUniversalTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXUniversalTools/Pods-WXUniversalTools.debug.xcconfig"; sourceTree = "<group>"; };
 		6954086C790A9EF4CC1FBEB4 /* libPods-WXUniversalTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXUniversalTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF169E1820FDCE91006ADA50 /* UIColor+HexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		BF169E1920FDCE91006ADA50 /* UIColor+HexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		BF169E1B20FDCFEF006ADA50 /* NSString+RegexCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
+		BF169E1C20FDCFEF006ADA50 /* NSString+RegexCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
 		BFAC62B320A1D1FB002E05B5 /* WXUniversalTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXUniversalTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC62B620A1D1FB002E05B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFAC62B720A1D1FB002E05B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -338,6 +344,10 @@
 			isa = PBXGroup;
 			children = (
 				CB33E27120AE7A8D00CEF3C1 /* HUD_Category */,
+				BF169E1820FDCE91006ADA50 /* UIColor+HexColor.h */,
+				BF169E1920FDCE91006ADA50 /* UIColor+HexColor.m */,
+				BF169E1B20FDCFEF006ADA50 /* NSString+RegexCategory.h */,
+				BF169E1C20FDCFEF006ADA50 /* NSString+RegexCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -559,10 +569,12 @@
 				BFAC62EB20A1D430002E05B5 /* UIImage+DHXRadius.m in Sources */,
 				BFAC62BB20A1D1FB002E05B5 /* ViewController.m in Sources */,
 				BFAC62C620A1D1FB002E05B5 /* main.m in Sources */,
+				BF169E1D20FDCFEF006ADA50 /* NSString+RegexCategory.m in Sources */,
 				CBFC2F9320A2E41A00B2C391 /* JShareTool.m in Sources */,
 				CBFC2F9420A2E41A00B2C391 /* ShareView.m in Sources */,
 				BFAC62B820A1D1FB002E05B5 /* AppDelegate.m in Sources */,
 				CBFC2F8020A2E41A00B2C391 /* JPushTool.m in Sources */,
+				BF169E1A20FDCE91006ADA50 /* UIColor+HexColor.m in Sources */,
 				CBFC2F7F20A2E41A00B2C391 /* AppDelegate+JPush.m in Sources */,
 				CB33E28120AE7A8D00CEF3C1 /* MBProgressHUD+JW.m in Sources */,
 			);
