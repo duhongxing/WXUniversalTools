@@ -10,29 +10,33 @@
 
 @implementation NSString (Empty)
 
-- (BOOL)stringIsEmpty {
++ (BOOL)isEmptyWithString:(NSString *)string {
     
-    if (self == nil) {
+    if (string == nil) {
         return YES;
     }
     
-    if (self.length == 0 || [[self stringByReplacingOccurrencesOfString:@" " withString:@""] length] == 0) {
+    if (string.length == 0 || [[string stringByReplacingOccurrencesOfString:@" " withString:@""] length] == 0) {
         return YES;
     }
     
-    if ([self isKindOfClass:[NSNull class]]) {
+    if ([string isKindOfClass:[NSNull class]]) {
         return YES;
     }
     
-    if ([self isEqualToString:@""]) {
+    if ([string isEqualToString:@""]) {
         return YES;
     }
     
-    if ([self isEqualToString:@"<null>"]) {
+    if ([string isEqualToString:@"<null>"]) {
         return YES;
     }
     
-    if (![self isKindOfClass:[NSString class]]) {
+    if ([string isEqualToString:@"null"]) {
+        return YES;
+    }
+    
+    if (![string isKindOfClass:[NSString class]]) {
         return YES;
     }
     

@@ -11,6 +11,6 @@
 @interface NSString (Empty)
 
 ///字符串叛空
-- (BOOL)stringIsEmpty;
++ (BOOL)isEmptyWithString:(NSString *)string;
 
 @end
