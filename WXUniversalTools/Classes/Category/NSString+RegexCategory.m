@@ -71,23 +71,38 @@
 //仅为数字或字母
 - (BOOL)isNumberOrLetter{
     NSString *regex = @"(^[a-zA-Z0-9]+$)";
-
     return [self isValidateByRegex:regex];
 }
 
 
 //包含汉字
 - (BOOL)includeChinese{
-
     for (int i = 0; i < [self length]; i++) {
-
         int a = [self characterAtIndex:i];
-
         if (a > 0x4e00 && a < 0x9fff) {
             return YES;
         }
     }
     return NO;
+}
+
+//文字在300之内
+- (BOOL)isValidateName:(NSString *)name{
+    NSUInteger  character = 0;
+    for(int i=0; i< [name length];i++){
+        int a = [name characterAtIndex:i];
+        if( a >= 0x4e00 && a <= 0x9fff){ //判断是否为中文
+            character +=2;
+        }else{
+            character +=1;
+        }
+    }
+    NSLog(@"%ld",character);
+    if (character > 0 && character <= 300) {
+        return YES;
+    }else{
+        return NO;
+    }
 }
 
 //身份证号
