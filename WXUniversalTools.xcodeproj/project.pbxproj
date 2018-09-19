@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E7C8F462122BABE00C3CBD7 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C8F452122BABE00C3CBD7 /* NSString+Empty.m */; };
-		0EBF3265213640610074B1FA /* NSString+UrlParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF3264213640610074B1FA /* NSString+UrlParameter.m */; };
 		0EBF3267213641DB0074B1FA /* WXStringToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF3266213641DB0074B1FA /* WXStringToolTests.m */; };
-		BF169E1A20FDCE91006ADA50 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF169E1920FDCE91006ADA50 /* UIColor+HexColor.m */; };
-		BF169E1D20FDCFEF006ADA50 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF169E1C20FDCFEF006ADA50 /* NSString+RegexCategory.m */; };
+		0EC1561F213E7FD200B40A73 /* WXCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1561E213E7FD200B40A73 /* WXCommonTool.m */; };
+		0EC1562A213E813B00B40A73 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC15622213E813A00B40A73 /* NSString+RegexCategory.m */; };
+		0EC1562B213E813B00B40A73 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC15624213E813A00B40A73 /* NSString+Empty.m */; };
+		0EC1562C213E813B00B40A73 /* UIImage+DHXRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC15626213E813B00B40A73 /* UIImage+DHXRadius.m */; };
+		0EC1562D213E813B00B40A73 /* NSString+UrlParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC15627213E813B00B40A73 /* NSString+UrlParameter.m */; };
+		0EC1562E213E813B00B40A73 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC15628213E813B00B40A73 /* UIColor+HexColor.m */; };
 		BFAC62B820A1D1FB002E05B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62B720A1D1FB002E05B5 /* AppDelegate.m */; };
 		BFAC62BB20A1D1FB002E05B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62BA20A1D1FB002E05B5 /* ViewController.m */; };
 		BFAC62BE20A1D1FB002E05B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAC62BC20A1D1FB002E05B5 /* Main.storyboard */; };
@@ -20,7 +22,6 @@
 		BFAC62C620A1D1FB002E05B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62C520A1D1FB002E05B5 /* main.m */; };
 		BFAC62D020A1D1FB002E05B5 /* WXUniversalToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62CF20A1D1FB002E05B5 /* WXUniversalToolsTests.m */; };
 		BFAC62DB20A1D1FB002E05B5 /* WXUniversalToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62DA20A1D1FB002E05B5 /* WXUniversalToolsUITests.m */; };
-		BFAC62EB20A1D430002E05B5 /* UIImage+DHXRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62EA20A1D423002E05B5 /* UIImage+DHXRadius.m */; };
 		CB33E27B20AE7A8D00CEF3C1 /* HUD_JW_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB33E27320AE7A8D00CEF3C1 /* HUD_JW_error@2x.png */; };
 		CB33E27C20AE7A8D00CEF3C1 /* HUD_JW_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB33E27420AE7A8D00CEF3C1 /* HUD_JW_error@3x.png */; };
 		CB33E27D20AE7A8D00CEF3C1 /* HUD_JW_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB33E27520AE7A8D00CEF3C1 /* HUD_JW_info@2x.png */; };
@@ -71,17 +72,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E7C8F442122BABE00C3CBD7 /* NSString+Empty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Empty.h"; sourceTree = "<group>"; };
-		0E7C8F452122BABE00C3CBD7 /* NSString+Empty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Empty.m"; sourceTree = "<group>"; };
-		0EBF3263213640610074B1FA /* NSString+UrlParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlParameter.h"; sourceTree = "<group>"; };
-		0EBF3264213640610074B1FA /* NSString+UrlParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlParameter.m"; sourceTree = "<group>"; };
 		0EBF3266213641DB0074B1FA /* WXStringToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXStringToolTests.m; sourceTree = "<group>"; };
+		0EC1561D213E7FD200B40A73 /* WXCommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCommonTool.h; sourceTree = "<group>"; };
+		0EC1561E213E7FD200B40A73 /* WXCommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXCommonTool.m; sourceTree = "<group>"; };
+		0EC15620213E813A00B40A73 /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
+		0EC15621213E813A00B40A73 /* NSString+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Empty.h"; sourceTree = "<group>"; };
+		0EC15622213E813A00B40A73 /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
+		0EC15623213E813A00B40A73 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		0EC15624213E813A00B40A73 /* NSString+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Empty.m"; sourceTree = "<group>"; };
+		0EC15625213E813A00B40A73 /* NSString+UrlParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlParameter.h"; sourceTree = "<group>"; };
+		0EC15626213E813B00B40A73 /* UIImage+DHXRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DHXRadius.m"; sourceTree = "<group>"; };
+		0EC15627213E813B00B40A73 /* NSString+UrlParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlParameter.m"; sourceTree = "<group>"; };
+		0EC15628213E813B00B40A73 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		0EC15629213E813B00B40A73 /* UIImage+DHXRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DHXRadius.h"; sourceTree = "<group>"; };
 		1788DBD0833E73E9DB93F235 /* Pods-WXUniversalTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXUniversalTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXUniversalTools/Pods-WXUniversalTools.debug.xcconfig"; sourceTree = "<group>"; };
 		6954086C790A9EF4CC1FBEB4 /* libPods-WXUniversalTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXUniversalTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF169E1820FDCE91006ADA50 /* UIColor+HexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
-		BF169E1920FDCE91006ADA50 /* UIColor+HexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
-		BF169E1B20FDCFEF006ADA50 /* NSString+RegexCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
-		BF169E1C20FDCFEF006ADA50 /* NSString+RegexCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
 		BFAC62B320A1D1FB002E05B5 /* WXUniversalTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXUniversalTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC62B620A1D1FB002E05B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFAC62B720A1D1FB002E05B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,8 +103,6 @@
 		BFAC62D620A1D1FB002E05B5 /* WXUniversalToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXUniversalToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC62DA20A1D1FB002E05B5 /* WXUniversalToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXUniversalToolsUITests.m; sourceTree = "<group>"; };
 		BFAC62DC20A1D1FB002E05B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFAC62E920A1D423002E05B5 /* UIImage+DHXRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DHXRadius.h"; sourceTree = "<group>"; };
-		BFAC62EA20A1D423002E05B5 /* UIImage+DHXRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DHXRadius.m"; sourceTree = "<group>"; };
 		C5ECBA690A69FC2CFC53DF0F /* Pods-WXUniversalTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXUniversalTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXUniversalTools/Pods-WXUniversalTools.release.xcconfig"; sourceTree = "<group>"; };
 		CB33E27320AE7A8D00CEF3C1 /* HUD_JW_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_JW_error@2x.png"; sourceTree = "<group>"; };
 		CB33E27420AE7A8D00CEF3C1 /* HUD_JW_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_JW_error@3x.png"; sourceTree = "<group>"; };
@@ -173,6 +176,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0EC1561C213E7FB200B40A73 /* CommonTool */ = {
+			isa = PBXGroup;
+			children = (
+				0EC1561D213E7FD200B40A73 /* WXCommonTool.h */,
+				0EC1561E213E7FD200B40A73 /* WXCommonTool.m */,
+			);
+			path = CommonTool;
+			sourceTree = "<group>";
+		};
 		94AF85E9C21A75EC95D65A31 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,8 +256,8 @@
 			isa = PBXGroup;
 			children = (
 				CBFC2FCC20A9853500B2C391 /* Category */,
+				0EC1561C213E7FB200B40A73 /* CommonTool */,
 				CBFC2F5E20A2E32500B2C391 /* VendorTool */,
-				CBFC2F5D20A2DF4E00B2C391 /* Base_Category */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -271,19 +283,6 @@
 				CB33E27820AE7A8D00CEF3C1 /* HUD_JW_success@3x.png */,
 			);
 			path = HUD_images;
-			sourceTree = "<group>";
-		};
-		CBFC2F5D20A2DF4E00B2C391 /* Base_Category */ = {
-			isa = PBXGroup;
-			children = (
-				BFAC62E920A1D423002E05B5 /* UIImage+DHXRadius.h */,
-				BFAC62EA20A1D423002E05B5 /* UIImage+DHXRadius.m */,
-				0E7C8F442122BABE00C3CBD7 /* NSString+Empty.h */,
-				0E7C8F452122BABE00C3CBD7 /* NSString+Empty.m */,
-				0EBF3263213640610074B1FA /* NSString+UrlParameter.h */,
-				0EBF3264213640610074B1FA /* NSString+UrlParameter.m */,
-			);
-			path = Base_Category;
 			sourceTree = "<group>";
 		};
 		CBFC2F5E20A2E32500B2C391 /* VendorTool */ = {
@@ -357,10 +356,16 @@
 			isa = PBXGroup;
 			children = (
 				CB33E27120AE7A8D00CEF3C1 /* HUD_Category */,
-				BF169E1820FDCE91006ADA50 /* UIColor+HexColor.h */,
-				BF169E1920FDCE91006ADA50 /* UIColor+HexColor.m */,
-				BF169E1B20FDCFEF006ADA50 /* NSString+RegexCategory.h */,
-				BF169E1C20FDCFEF006ADA50 /* NSString+RegexCategory.m */,
+				0EC15621213E813A00B40A73 /* NSString+Empty.h */,
+				0EC15624213E813A00B40A73 /* NSString+Empty.m */,
+				0EC15620213E813A00B40A73 /* NSString+RegexCategory.h */,
+				0EC15622213E813A00B40A73 /* NSString+RegexCategory.m */,
+				0EC15625213E813A00B40A73 /* NSString+UrlParameter.h */,
+				0EC15627213E813B00B40A73 /* NSString+UrlParameter.m */,
+				0EC15623213E813A00B40A73 /* UIColor+HexColor.h */,
+				0EC15628213E813B00B40A73 /* UIColor+HexColor.m */,
+				0EC15629213E813B00B40A73 /* UIImage+DHXRadius.h */,
+				0EC15626213E813B00B40A73 /* UIImage+DHXRadius.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -563,19 +568,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EBF3265213640610074B1FA /* NSString+UrlParameter.m in Sources */,
-				BFAC62EB20A1D430002E05B5 /* UIImage+DHXRadius.m in Sources */,
+				0EC1561F213E7FD200B40A73 /* WXCommonTool.m in Sources */,
+				0EC1562D213E813B00B40A73 /* NSString+UrlParameter.m in Sources */,
 				BFAC62BB20A1D1FB002E05B5 /* ViewController.m in Sources */,
+				0EC1562B213E813B00B40A73 /* NSString+Empty.m in Sources */,
 				BFAC62C620A1D1FB002E05B5 /* main.m in Sources */,
-				BF169E1D20FDCFEF006ADA50 /* NSString+RegexCategory.m in Sources */,
 				CBFC2F9320A2E41A00B2C391 /* JShareTool.m in Sources */,
 				CBFC2F9420A2E41A00B2C391 /* ShareView.m in Sources */,
 				BFAC62B820A1D1FB002E05B5 /* AppDelegate.m in Sources */,
+				0EC1562E213E813B00B40A73 /* UIColor+HexColor.m in Sources */,
 				CBFC2F8020A2E41A00B2C391 /* JPushTool.m in Sources */,
-				BF169E1A20FDCE91006ADA50 /* UIColor+HexColor.m in Sources */,
-				0E7C8F462122BABE00C3CBD7 /* NSString+Empty.m in Sources */,
 				CBFC2F7F20A2E41A00B2C391 /* AppDelegate+JPush.m in Sources */,
 				CB33E28120AE7A8D00CEF3C1 /* MBProgressHUD+JW.m in Sources */,
+				0EC1562C213E813B00B40A73 /* UIImage+DHXRadius.m in Sources */,
+				0EC1562A213E813B00B40A73 /* NSString+RegexCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

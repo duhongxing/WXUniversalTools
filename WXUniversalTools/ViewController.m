@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "NSString+Empty.h"
 #import "NSString+UrlParameter.h"
+#import "WXCommonTool.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
     
     NSString *string = nil;
     NSLog(@"%@",nil);
@@ -30,14 +32,24 @@
     } else {
          NSLog(@"字符串不为空");
     }
+    
+    NSLog(@"%@",[[WXCommonTool shareTool]currentViewController]);
+    
    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+}
+
+
+
 
 
 @end
