@@ -22,18 +22,17 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    NSString *string = nil;
-    NSLog(@"%@",nil);
-    NSLog(@"%@",[NSNull class]);
-
-    BOOL ret = [NSString isEmptyWithString:string];
-    if (ret) {
-        NSLog(@"字符串为空");
-    } else {
-         NSLog(@"字符串不为空");
-    }
+    UILabel *textLab = [[UILabel alloc]initWithFrame:CGRectMake(50, 300, self.view.bounds.size.width - 100, 100)];
+    textLab.numberOfLines = 0;
+    textLab.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:textLab];
     
-    NSLog(@"%@",[[WXCommonTool shareTool]currentViewController]);
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];
+    paragraphStyle.lineSpacing       = 19;
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc]initWithString:@"性别、生日信息已经编辑保存后，将不支持修改哦，小主请确保信息提交无误后再提交~" attributes:@{NSParagraphStyleAttributeName:paragraphStyle}];
+    textLab.attributedText = attributedString;
+    textLab.layer.borderWidth = 1;
+    textLab.layer.borderColor = [[UIColor redColor]CGColor];
     
    
 }
