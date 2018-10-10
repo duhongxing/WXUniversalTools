@@ -15,6 +15,9 @@
 		0EC1562D213E813B00B40A73 /* NSString+UrlParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC15627213E813B00B40A73 /* NSString+UrlParameter.m */; };
 		0EC1562E213E813B00B40A73 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC15628213E813B00B40A73 /* UIColor+HexColor.m */; };
 		0ECA3D24216B76180000A940 /* WXUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA3D23216B76180000A940 /* WXUIManager.m */; };
+		0ECA3D33216C5B370000A940 /* UIResponder+HXResponderChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA3D32216C5B370000A940 /* UIResponder+HXResponderChain.m */; };
+		0ECA3D98216DF2CA0000A940 /* WXStringRegexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA3D97216DF2CA0000A940 /* WXStringRegexTests.m */; };
+		0ECA3D9B216DFA2C0000A940 /* NSString+FilterString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA3D9A216DFA2C0000A940 /* NSString+FilterString.m */; };
 		BFAC62B820A1D1FB002E05B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62B720A1D1FB002E05B5 /* AppDelegate.m */; };
 		BFAC62BB20A1D1FB002E05B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC62BA20A1D1FB002E05B5 /* ViewController.m */; };
 		BFAC62BE20A1D1FB002E05B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAC62BC20A1D1FB002E05B5 /* Main.storyboard */; };
@@ -88,6 +91,11 @@
 		0EC15629213E813B00B40A73 /* UIImage+DHXRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DHXRadius.h"; sourceTree = "<group>"; };
 		0ECA3D22216B76180000A940 /* WXUIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXUIManager.h; sourceTree = "<group>"; };
 		0ECA3D23216B76180000A940 /* WXUIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXUIManager.m; sourceTree = "<group>"; };
+		0ECA3D31216C5B370000A940 /* UIResponder+HXResponderChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+HXResponderChain.h"; sourceTree = "<group>"; };
+		0ECA3D32216C5B370000A940 /* UIResponder+HXResponderChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+HXResponderChain.m"; sourceTree = "<group>"; };
+		0ECA3D97216DF2CA0000A940 /* WXStringRegexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXStringRegexTests.m; sourceTree = "<group>"; };
+		0ECA3D99216DFA2C0000A940 /* NSString+FilterString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FilterString.h"; sourceTree = "<group>"; };
+		0ECA3D9A216DFA2C0000A940 /* NSString+FilterString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FilterString.m"; sourceTree = "<group>"; };
 		1788DBD0833E73E9DB93F235 /* Pods-WXUniversalTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXUniversalTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXUniversalTools/Pods-WXUniversalTools.debug.xcconfig"; sourceTree = "<group>"; };
 		6954086C790A9EF4CC1FBEB4 /* libPods-WXUniversalTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXUniversalTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC62B320A1D1FB002E05B5 /* WXUniversalTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXUniversalTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -243,6 +251,7 @@
 			children = (
 				BFAC62CF20A1D1FB002E05B5 /* WXUniversalToolsTests.m */,
 				0EBF3266213641DB0074B1FA /* WXStringToolTests.m */,
+				0ECA3D97216DF2CA0000A940 /* WXStringRegexTests.m */,
 				BFAC62D120A1D1FB002E05B5 /* Info.plist */,
 			);
 			path = WXUniversalToolsTests;
@@ -365,12 +374,16 @@
 				0EC15624213E813A00B40A73 /* NSString+Empty.m */,
 				0EC15620213E813A00B40A73 /* NSString+RegexCategory.h */,
 				0EC15622213E813A00B40A73 /* NSString+RegexCategory.m */,
+				0ECA3D99216DFA2C0000A940 /* NSString+FilterString.h */,
+				0ECA3D9A216DFA2C0000A940 /* NSString+FilterString.m */,
 				0EC15625213E813A00B40A73 /* NSString+UrlParameter.h */,
 				0EC15627213E813B00B40A73 /* NSString+UrlParameter.m */,
 				0EC15623213E813A00B40A73 /* UIColor+HexColor.h */,
 				0EC15628213E813B00B40A73 /* UIColor+HexColor.m */,
 				0EC15629213E813B00B40A73 /* UIImage+DHXRadius.h */,
 				0EC15626213E813B00B40A73 /* UIImage+DHXRadius.m */,
+				0ECA3D31216C5B370000A940 /* UIResponder+HXResponderChain.h */,
+				0ECA3D32216C5B370000A940 /* UIResponder+HXResponderChain.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -582,6 +595,8 @@
 				CBFC2F9320A2E41A00B2C391 /* JShareTool.m in Sources */,
 				CBFC2F9420A2E41A00B2C391 /* ShareView.m in Sources */,
 				BFAC62B820A1D1FB002E05B5 /* AppDelegate.m in Sources */,
+				0ECA3D33216C5B370000A940 /* UIResponder+HXResponderChain.m in Sources */,
+				0ECA3D9B216DFA2C0000A940 /* NSString+FilterString.m in Sources */,
 				0EC1562E213E813B00B40A73 /* UIColor+HexColor.m in Sources */,
 				CBFC2F8020A2E41A00B2C391 /* JPushTool.m in Sources */,
 				CBFC2F7F20A2E41A00B2C391 /* AppDelegate+JPush.m in Sources */,
@@ -595,6 +610,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECA3D98216DF2CA0000A940 /* WXStringRegexTests.m in Sources */,
 				BFAC62D020A1D1FB002E05B5 /* WXUniversalToolsTests.m in Sources */,
 				0EBF3267213641DB0074B1FA /* WXStringToolTests.m in Sources */,
 			);

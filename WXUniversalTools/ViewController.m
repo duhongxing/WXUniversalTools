@@ -10,12 +10,17 @@
 #import "NSString+Empty.h"
 #import "NSString+UrlParameter.h"
 #import "WXCommonTool.h"
+#import "WXUIManager.h"
+#import "UIResponder+HXResponderChain.h"
+#import "NSString+RegexCategory.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+#pragma mark - life cycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,8 +38,7 @@
     textLab.attributedText = attributedString;
     textLab.layer.borderWidth = 1;
     textLab.layer.borderColor = [[UIColor redColor]CGColor];
-    
-   
+
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -48,6 +52,18 @@
 }
 
 
+
+#pragma mark -- UI
+
+#pragma mark -- event response
+
+#pragma mark -- private Method
+
+#pragma mark -- public Method
+
+#pragma mark -- delegate
+
+#pragma mark -- setter / getter
 
 
 

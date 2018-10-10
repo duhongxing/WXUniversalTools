@@ -74,6 +74,11 @@
     return [self isValidateByRegex:regex];
 }
 
+//仅允许输入中文字，英文字母大小写，数字，符号输入（除了单引号和双引号、回车、换行）
+- (BOOL)isValidateText {
+    NSString *regex = @"^[a-zA-Z0-9\u4e00-\u9fa5\r\n‘“'\"]+$";
+    return [self isValidateByRegex:regex];
+}
 
 //包含汉字
 - (BOOL)includeChinese{
@@ -86,11 +91,16 @@
     return NO;
 }
 
-//文字在300之内
-- (BOOL)isValidateName:(NSString *)name{
+//文字在20之内
+- (BOOL)isValidateName{
+    return [self isValidateNameWithLength:20];
+}
+
+//文字在length长度之内之内
+- (BOOL)isValidateNameWithLength:(NSInteger)length {
     NSUInteger  character = 0;
-    for(int i=0; i< [name length];i++){
-        int a = [name characterAtIndex:i];
+    for(int i=0; i< [self length];i++){
+        int a = [self characterAtIndex:i];
         if( a >= 0x4e00 && a <= 0x9fff){ //判断是否为中文
             character +=2;
         }else{
@@ -98,7 +108,7 @@
         }
     }
     NSLog(@"%ld",character);
-    if (character > 0 && character <= 300) {
+    if (character > 0 && character <= length) {
         return YES;
     }else{
         return NO;

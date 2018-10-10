@@ -11,7 +11,7 @@
 
 @interface WXUIManager : NSObject
 
-@property (nonatomic, readonly, assign) UIEdgeInsets safeAreaInset;
+@property (nonatomic, readonly, assign) UIEdgeInsets safeAreaInset;//!< 安全区域
 
 /**
  是否是带刘海的屏幕

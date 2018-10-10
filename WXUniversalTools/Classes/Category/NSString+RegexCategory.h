@@ -25,7 +25,16 @@
 //仅为数字或字母
 - (BOOL)isNumberOrLetter;
 
+/// 仅允许输入中文字，英文字母大小写，数字，符号输入（除了单引号和双引号、回车、换行）
+- (BOOL)isValidateText;
+
 //身份证号
 - (BOOL)simpleVerifyIdentityCardNum;
+
+//文字在length长度之内之内
+- (BOOL)isValidateNameWithLength:(NSInteger)length;
+
+//文字在300之内
+- (BOOL)isValidateName;
 
 @end
